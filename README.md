@@ -50,7 +50,7 @@ The first question is the number of cages you are running the system on. I enter
 ### Output
 Congratulations, you now have an electronic mouse wheel for tracking the activity of your mice. Once you run the system, a new folder will appear in your Raspberry Pi's documents titled Running_Wheel_Data, containing two more folders Raw and RPM. In both Raw and RPM, there will be folders corresponding to all of your cages, containing text files for each day of data. For Cage 001 on January 1st, 2020, the text files will be RunningWheel001_raw_01_01_2020 and RunningWheel001_rpm_01_01_2020. In raw files, each line of the text file will have a timestamp of a single rotation in the format MM_DD_YYYY followed by the number of seconds since midnight. I found the data displayed in this manner convenient for analysis, though YMMV. RPM files will have a similar timestamp followed by the RPM for that 5 second interval. See the video below to see an example of the wheel and code in action.
   
-
+<div style="width:360px;max-width:100%;"><div style="height:0;padding-bottom:56.11%;position:relative;"><iframe width="360" height="202" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/428ihy"></iframe></div><p><a href="https://imgflip.com/gif/428ihy">via Imgflip</a></p></div>
 
 ## Potential Updates
   -Change output format of date and timestamp
