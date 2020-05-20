@@ -28,20 +28,16 @@ Raspberry Pi 3 and 4 have 40 GPIO (General Purpose Input Output) pins. I used a 
 1. Save the folder Running_Wheel somewhere in your Raspberry Pi. I saved it in Documents/Python_Scripts
 2. Open the command prompt and navigate to the location of this folder using the following command (replace Documents/Python Scripts with the location of your Running_Wheel folder)
   >cd('Documents/Python Scripts/Running_Wheel)
-
 3. Type in the following command to start the program.
   >python3 runningwheel.py
-
 4. Two prompts will pop up.
     -Enter the number of cages:
     -Would you like to display detections?
     
- The first question is the number of cages you are running the system on. I entered 4. The second prompt is asking whether you want something printed to the screen every time a wheel rotation is detected. This is used for initial troubleshoot, so type 'yes' for now.
+The first question is the number of cages you are running the system on. I entered 4. The second prompt is asking whether you want something printed to the screen every time a wheel rotation is detected. This is used for initial troubleshoot, so type 'yes' for now.
  
  5. The system will begin running and output the RPMs of each cage every 5 seconds, along with the current time. Since you selected yes to "Would you like to display detections?", text will be printed every time a magnet passes a sensor.
- 
  6. With the system running, test passing the magnets by the sensors so that they are successfully detected. The sensors only detect the south pole of the magnet, so make sure you know which side of the magnet is south before attaching it to the wheel.
- 
  7. To stop the system, type Control C on the Raspberry Pi.
  
  ### Wheel Assembly
@@ -58,6 +54,7 @@ Congratulations, you now have an electronic mouse wheel for tracking the activit
 
 ## Potential Updates
   -Change output format of date and timestamp
+  
   -Upload code to analyze output
 
 ## Authors
