@@ -1,0 +1,12 @@
+Cage001=4
+Cage002=17
+Cage003=27
+Cage004=22
+Cage005=14
+Cage006=15
+Cage007=18
+Cage008=23
+Cage009=5
+Cage010=6
+Cage011=13
+Cage012=19
