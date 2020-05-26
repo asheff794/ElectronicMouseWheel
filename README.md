@@ -1,5 +1,5 @@
 # ElectronicMouseWheel
-An electronic mouse wheel for tracking activity of mice over time. A small neodymium magnet is attached to a mouse wheel, and a hall effect sensor logs the time during each pass of the magnet. This cannot differentiate the direction the mouse is running, but works for purposes of general activity tracking. While this code theoretically works with up to 12 cages, I've only tested it on 4 simultaneously. Too many cages may cause wheel rotations to be missed if they happen too close in time, this would require testing. I performed this work as a technician in Gloria Choi's lab at MIT.
+An electronic mouse wheel for tracking activity of mice over time. A small neodymium magnet is attached to a mouse wheel, and a hall effect sensor logs the time at each pass of the magnet. This cannot differentiate the direction the mouse is running, but works for purposes of general activity tracking. While this code theoretically works with up to 12 cages, I've only tested it on 4 simultaneously. Too many cages may cause wheel rotations to be missed if they happen too close in time, this would require testing. I performed this work as a technician in Gloria Choi's lab at MIT.
 
 
 #### Necessary Components
@@ -31,8 +31,8 @@ Raspberry Pi 3 and 4 have 40 GPIO (General Purpose Input Output) pins. I used a 
 3. Type in the following command to start the program.
   >python3 runningwheel.py
 4. Two prompts will pop up.
-    -Enter the number of cages:
-    -Would you like to display detections?
+   - Enter the number of cages: 
+   - Would you like to display detections?
     
 The first question is the number of cages you are running the system on. I entered 4. The second prompt is asking whether you want something printed to the screen every time a wheel rotation is detected. This is used for initial troubleshoot, so type 'yes' for now.
  
